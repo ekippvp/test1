@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Pacaembu;
+}
+
+::selection {
+    background: #f1c40f;
+    color: #000;
+}
+
+@font-face {
+    font-family: "Pacaembu";
+    src: url("font.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html, body {
+    background: #000;
+    font-size: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 5vh;
+    padding: 0.1rem;
+}
+
+p {
+    color: #8e9091;
+    text-align: center;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 150%;
+    margin: 0 28vw;
+    margin-bottom: 5vh;
+}
+
+button {
+    color: #000;
+    text-align: center;
+    font-size: 2.4rem;
+    background: #f1c40f;
+    border-color: #f1c40f;
+    border-radius: 1rem;
+    padding: 0.6rem 1.3rem;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 0.1rem;
+}
+
+button:hover {
+    filter: brightness(70%);
+}
+
+@media (max-width: 960px) {
+
+    main {
+        margin-top: 8vh;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 5vh;
+    }
+
+    p {
+        font-size: 2.3rem;
+        margin: 0 10vw;
+        margin-bottom: 5vh;
+    }
+
+    button {
+        font-size: 2.3rem;
+        padding: 0.5rem 1.2rem;
+    }
+
+}
+
+@media (max-width: 440px) {
+
+    main {
+        margin-top: 8vh;
+    }
+
+    h1 {
+        font-size: 3.8rem;
+        margin-bottom: 4vh;
+        padding: 0 40px;
+    }
+
+    p {
+        font-size: 2.2rem;
+        margin: 0 10vw;
+        margin-bottom: 5vh;
+    }
+
+    button {
+        font-size: 2.2rem;
+        padding: 0.4rem 1.1rem;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    main {
+        margin-top: 8vh;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+        margin-bottom: 5vh;
+    }
+
+    p {
+        font-size: 2.2rem;
+        margin: 0 10vw;
+        margin-bottom: 5vh;
+    }
+
+    button {
+        font-size: 2.2rem;
+        padding: 0.4rem 1.1rem;
+    }
+
+}
+
+
+  
